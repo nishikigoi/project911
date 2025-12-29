@@ -1,0 +1,109 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #0b0b0b;
+  color: #f1f1f1;
+}
+
+#app { min-height: 100%; }
+
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0 14px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.progress {
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.illusWrap {
+  margin: 0 0 12px;
+}
+
+.illus {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid #2a2a2a;
+}
+
+.story {
+  white-space: pre-wrap;
+  font-size: 16px;
+  padding: 6px 2px 8px;
+}
+
+.buttons {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.btn {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #3a3a3a;
+  background: #1a1a1a;
+  color: #f1f1f1;
+  text-align: left;
+  cursor: pointer;
+}
+
+.btn:hover { background: #222; }
+.btn:active { background: #262626; }
+
+.btn.secondary {
+  background: transparent;
+  border-color: #2a2a2a;
+  color: #bdbdbd;
+}
+
+.choiceLabel {
+  display: inline-block;
+  min-width: 2.4em;
+  font-weight: 800;
+}
+
+.choiceText {
+  display: inline;
+}
+
+.hint {
+  margin: 0;
+  color: #bdbdbd;
+}
