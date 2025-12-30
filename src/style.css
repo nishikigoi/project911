@@ -1,6 +1,8 @@
 :root {
   color-scheme: dark;
-  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: var(--font-body);
   line-height: 1.7;
   font-weight: 400;
 }
@@ -55,20 +57,25 @@ html, body {
 .heroWrap {
   position: relative;
   margin: 0 0 12px;
+  overflow: hidden;
+  border-radius: 12px;
 }
 
 .heroOverlay {
   position: absolute;
   left: 0;
   right: 0;
-  top: 0;
-  padding: 12px;
-  background: linear-gradient(to bottom, #111 0%, transparent 70%);
+  bottom: 0;
+  padding: 14px 12px;
+  background: linear-gradient(to top, #111 0%, transparent 70%);
   pointer-events: none;
 }
 
 .heroTitle {
+  font-family: var(--font-display);
   font-weight: 900;
+  font-size: 18px;
+  line-height: 1.2;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   text-align: center;
@@ -141,6 +148,7 @@ html, body {
 .actions .btn {
   width: min(360px, 100%);
   text-align: center;
+  font-family: var(--font-display);
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
