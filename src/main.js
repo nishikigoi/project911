@@ -1,6 +1,6 @@
 import "./style.css";
 
-const DATA_URL = "/data/gameData.json";
+const DATA_URL = "data/gameData.json";
 
 /** @typedef {{label:string, text:string, next:string}} Choice */
 /** @typedef {{id:string, title:string, illustration:string, storyText:string, choices:Choice[]}} Scene */
@@ -16,9 +16,14 @@ let currentId = "scene1";
 /** @type {boolean} */
 let started = false;
 
-const TITLE_ILLUSTRATION = "/assets/title.webp";
+const TITLE_ILLUSTRATION = "assets/title.webp";
 
 const app = document.querySelector("#app");
+
+function normalizeAssetUrl(url) {
+  if (!url) return url;
+  return url.startsWith("/") ? url.slice(1) : url;
+}
 
 function el(tag, props = {}, children = []) {
   const node = document.createElement(tag);
@@ -71,7 +76,7 @@ function renderIllustration(src, alt, aspectRatio = "3 / 2") {
   return el("div", { class: "illusWrap", style: `aspect-ratio: ${aspectRatio};` }, [
     el("img", {
       class: "illus",
-      src,
+      src: normalizeAssetUrl(src),
       alt,
       loading: "lazy",
       decoding: "async"
@@ -95,7 +100,7 @@ function renderHeroIllustration(src, alt, overlayText, aspectRatio = "3 / 2") {
   return el("div", { class: "heroWrap", style: `aspect-ratio: ${aspectRatio};` }, [
     el("img", {
       class: "illus",
-      src,
+      src: normalizeAssetUrl(src),
       alt,
       loading: "lazy",
       decoding: "async"
