@@ -32,13 +32,13 @@
       "choices": [
         {
           "label": "A",
-          "text": "Ask what happened and check the phone receiver once.",
-          "next": "scene3"
+          "text": "Ignore it, pay quickly, and step outside.",
+          "next": "bad_scene02_b"
         },
         {
           "label": "B",
-          "text": "Ignore it, pay quickly, and step outside.",
-          "next": "bad_scene02_b"
+          "text": "Ask what happened and check the phone receiver once.",
+          "next": "scene3"
         }
       ]
     },
@@ -86,13 +86,13 @@
       "choices": [
         {
           "label": "A",
-          "text": "Double-check the label and choose carefully.",
-          "next": "scene6"
+          "text": "Just press a buttonanything is fine.",
+          "next": "bad_scene05_b"
         },
         {
           "label": "B",
-          "text": "Just press a buttonanything is fine.",
-          "next": "bad_scene05_b"
+          "text": "Double-check the label and choose carefully.",
+          "next": "scene6"
         }
       ]
     },
@@ -104,13 +104,13 @@
       "choices": [
         {
           "label": "A",
-          "text": "Stop by the supermarket before going home.",
-          "next": "scene7"
+          "text": "Go straight home and deal with it later.",
+          "next": "bad_scene06_b"
         },
         {
           "label": "B",
-          "text": "Go straight home and deal with it later.",
-          "next": "bad_scene06_b"
+          "text": "Stop by the supermarket before going home.",
+          "next": "scene7"
         }
       ]
     },
@@ -176,13 +176,13 @@
       "choices": [
         {
           "label": "A",
-          "text": "Cut the power at the fuse box first.",
-          "next": "clear"
+          "text": "Open the strange door in the back first.",
+          "next": "bad_scene10_b"
         },
         {
           "label": "B",
-          "text": "Open the strange door in the back first.",
-          "next": "bad_scene10_b"
+          "text": "Cut the power at the fuse box first.",
+          "next": "clear"
         }
       ]
     }
