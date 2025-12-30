@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="GAME OVER (03)">
-  <rect width="1200" height="675" fill="#140000"/>
-  <rect x="40" y="40" width="1120" height="595" fill="#1b0000" stroke="#7a0000" stroke-width="4"/>
-  <text x="80" y="140" fill="#ffe6e6" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="64">GAME OVER (03)</text>
-  <text x="80" y="210" fill="#ffb3b3" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="28">Replace this placeholder with your illustration (WebP recommended).</text>
-  <text x="80" y="260" fill="#ffb3b3" opacity="0.8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22">1990s Detroit  Project 911</text>
-</svg>
