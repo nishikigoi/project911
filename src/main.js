@@ -66,12 +66,6 @@ function findBadEnd(id) {
   return gameData?.badEnds.find((b) => b.id === id) ?? null;
 }
 
-function renderHeader(progressText) {
-  return el("header", { class: "header" }, [
-    el("div", { class: "title", text: gameData?.meta.gameTitle ?? "911" }),
-    el("div", { class: "progress", text: progressText })
-  ]);
-}
 
 function renderIllustration(src, alt) {
   return el("div", { class: "illusWrap" }, [
@@ -99,7 +93,6 @@ function render() {
   if (!gameData) {
     app.replaceChildren(
       el("main", { class: "container" }, [
-        renderHeader("Loading"),
         el("div", { class: "card" }, [
           el("p", { class: "hint", text: "Loading game data" })
         ])
@@ -113,10 +106,8 @@ function render() {
   if (!started) {
     app.replaceChildren(
       el("main", { class: "container" }, [
-        renderHeader("TITLE"),
         el("div", { class: "card" }, [
           renderIllustration(TITLE_ILLUSTRATION, gameData?.meta.gameTitle ?? "911"),
-          el("p", { class: "hint", text: gameData?.meta.note ?? "No saves. Reload restarts from Scene 1." }),
           renderButtons([
             el("button", { class: "btn", type: "button", onClick: startGame, text: "Start Game" })
           ])
@@ -130,7 +121,6 @@ function render() {
     const clear = gameData.clear;
     app.replaceChildren(
       el("main", { class: "container" }, [
-        renderHeader(`GAME CLEAR (10 / ${total})`),
         el("div", { class: "card" }, [
           renderIllustration(clear.illustration, clear.title),
           renderTextBlock(clear.clearText),
@@ -168,7 +158,6 @@ function render() {
 
     app.replaceChildren(
       el("main", { class: "container" }, [
-        renderHeader(progress),
         el("div", { class: "card" }, [
           renderIllustration(scene.illustration, scene.title),
           renderTextBlock(scene.storyText),
@@ -187,7 +176,6 @@ function render() {
     const idx = badSceneIndexFromId(bad.id) ?? 0;
     app.replaceChildren(
       el("main", { class: "container" }, [
-        renderHeader(`GAME OVER (Scene ${idx} / ${total})`),
         el("div", { class: "card" }, [
           renderIllustration(bad.illustration, bad.title),
           renderTextBlock(bad.deathText),
@@ -218,7 +206,6 @@ async function boot() {
     if (!app) return;
     app.replaceChildren(
       el("main", { class: "container" }, [
-        renderHeader("Error"),
         el("div", { class: "card" }, [
           el("p", { class: "hint", text: "Failed to load game data." }),
           el("button", { class: "btn", type: "button", onClick: () => location.reload(), text: "Reload" })
