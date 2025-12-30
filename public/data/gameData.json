@@ -28,7 +28,7 @@
       "id": "scene2",
       "title": "Morning  The Diner and the Ring",
       "illustration": "/assets/scene02.webp",
-      "storyText": "The diner's doorbell always rings a beat late.\nThe smell of grease and coffee loosens your shoulders before you even sit down.\nThe waitress, a familiar face, guides us to a booth with a grin.\nSomething's wrong with the phone this morning, she says. It keeps saying nine-one-one.\nThe wall phone did ring onceshort and sharp.\nThen it stopped, and the place swallowed the silence like nothing happened.\nOutside: a school bus, a newspaper kid, and the far howl of a siren.\nI picture pancakes for the family.\nAnd still, for some reason, someone's breathing lingers in my ear.\nMaybe the right way to start a day is not to leave a feeling like this unattended.",
+      "storyText": "The diner's doorbell always rings a beat late.\nThe smell of grease and coffee loosens your shoulders before you even sit down.\nThe waitress, a familiar face, guides us to a booth with a grin.\nSomething's wrong with the phone this morning, she says. It keeps saying nine-one-one.\nThe wall phone did ring once, short and sharp.\nThen it stopped, and the place swallowed the silence like nothing happened.\nOutside: a school bus, a newspaper kid, and the far howl of a siren.\nI picture pancakes for the family.\nAnd still, for some reason, someone's breathing lingers in my ear.\nMaybe the right way to start a day is not to leave a feeling like this unattended.",
       "choices": [
         {
           "label": "A",
@@ -46,7 +46,7 @@
       "id": "scene3",
       "title": "Morning  Leaden Sky",
       "illustration": "/assets/scene03.webp",
-      "storyText": "The car is old, but the engine still has grit.\nAM radio. The news repeats the same words until they turn to static.\nEmergency lines. Routing issues. Misconnections.\nMy company is out in the suburbsnormally one straight shot on the highway.\nBut the sky today is a heavy, leaden gray.\nAt an intersection, the light seems to change a fraction of a beat too late.\nIt's tiny. And tiny delays are where accidents begin.\nSpeeding up is easy. Slowing down takes nerve.\nAlong the edge of the windshield, a black bird keeps pace at the same height.\nI know I can't catch it.",
+      "storyText": "The car is old, but the engine still has grit.\nAM radio. The news repeats the same words until they turn to static.\nEmergency lines. Routing issues. Misconnections.\nMy company is out in the suburbs, normally one straight shot on the highway.\nBut the sky today is a heavy, leaden gray.\nAt an intersection, the light seems to change a fraction of a beat too late.\nIt's tiny. And tiny delays are where accidents begin.\nSpeeding up is easy. Slowing down takes nerve.\nAlong the edge of the windshield, a black bird keeps pace at the same height.\nI know I can't catch it.",
       "choices": [
         {
           "label": "A",
@@ -118,7 +118,7 @@
       "id": "scene7",
       "title": "Evening  Homework and Notes",
       "illustration": "/assets/scene07.webp",
-      "storyText": "I open the front door and the smell of home pushes back the smell of work.\nEvening light is thin; the curtains cast long shadows on the floor.\nLily's poster board on the table looks like a galaxy of clutter.\nDad, I have to build a volcano by tomorrow. I need styrofoam.\nTommy watches TV, but the volume is too lowso low it's unsettling.\nAnother note has appeared on the refrigerator.\nThe word please looks darker than yesterday.\nA father's job is to help.\nNot helping is easy.\nAnd whenever I choose the easy way, the sirens outside feel a little closer.",
+      "storyText": "I open the front door and the smell of home pushes back the smell of work.\nEvening light is thin; the curtains cast long shadows on the floor.\nLily's poster board on the table looks like a galaxy of clutter.\nDad, I have to build a volcano by tomorrow. I need styrofoam.\nTommy watches TV, but the volume is too low, so low it's unsettling.\nAnother note has appeared on the refrigerator.\nThe word please looks darker than yesterday.\nA father's job is to help.\nNot helping is easy.\nAnd whenever I choose the easy way, the sirens outside feel a little closer.",
       "choices": [
         {
           "label": "A",
@@ -136,7 +136,7 @@
       "id": "scene8",
       "title": "Night  A Neighbor's Knock",
       "illustration": "/assets/scene08.webp",
-      "storyText": "After sunset, Detroit turns suddenly quiet.\nSo quiet the house's creaks sound like conversation.\nA knock. Twice. Evenly spaced.\nMr. Hudson from next door stands there, hat in hand.\nSorry, David. There's a weird smell out back. Like something's burning.\nBurning is just another word for fire.\nFire is why you call.\nCallingtonightfeels unreliable.\nBut fire doesn't wait.\nI feel my family's breathing behind me and look into the dark.",
+      "storyText": "After sunset, Detroit turns suddenly quiet.\nSo quiet the house's creaks sound like conversation.\nA knock. Twice. Evenly spaced.\nMr. Hudson from next door stands there, hat in hand.\nSorry, David. There's a weird smell out back. Like something's burning.\nBurning is just another word for fire.\nFire is why you call.\nCalling tonight feels unreliable.\nBut fire doesn't wait.\nI feel my family's breathing behind me and look into the dark.",
       "choices": [
         {
           "label": "A",
@@ -154,7 +154,7 @@
       "id": "scene9",
       "title": "Night  The Voice in the Noise",
       "illustration": "/assets/scene09.webp",
-      "storyText": "The air behind the house is cold, and the burnt smell is real.\nBut I can't see flames. No smoke.\nA fire you can't see is the worst kind.\nBack inside, the phone rings againthis time clearly.\nThe line is a nest of noise, and inside it a woman's voice.\nThis is nine-one-one. Can you hear me?\nIt says 911, but it feels far away.\nShe recites my address. She knows how many people are in my house.\nMy throat dries out.\nA wrong number shouldn't know that much.",
+      "storyText": "The air behind the house is cold, and the burnt smell is real.\nBut I can't see flames. No smoke.\nA fire you can't see is the worst kind.\nBack inside, the phone rings again, this time clearly.\nThe line is a nest of noise, and inside it a woman's voice.\nThis is nine-one-one. Can you hear me?\nIt says 911, but it feels far away.\nShe recites my address. She knows how many people are in my house.\nMy throat dries out.\nA wrong number shouldn't know that much.",
       "choices": [
         {
           "label": "A",
@@ -172,7 +172,7 @@
       "id": "scene10",
       "title": "Night  The Fuse Box",
       "illustration": "/assets/scene10.webp",
-      "storyText": "Her voice stays calmtoo calm.\nGo to the basement fuse box right now. The smell isn't fire. It's electricity.\nThe basement stairs are dark, the wooden rail damp to the touch.\nMy flashlight cuts old appliances and cardboard into pieces.\nAt the fuse box, I find it: a run of wire blackened, but not yet burning.\nIf I act now, I can stop it.\nBut deeper in the basement is another door.\nSince when was that there?\nI reach out, and choose where my hand goes.",
+      "storyText": "Her voice stays calm, too calm.\nGo to the basement fuse box right now. The smell isn't fire. It's electricity.\nThe basement stairs are dark, the wooden rail damp to the touch.\nMy flashlight cuts old appliances and cardboard into pieces.\nAt the fuse box, I find it: a run of wire blackened, but not yet burning.\nIf I act now, I can stop it.\nBut deeper in the basement is another door.\nSince when was that there?\nI reach out, and choose where my hand goes.",
       "choices": [
         {
           "label": "A",
@@ -198,7 +198,7 @@
       "id": "bad_scene02_b",
       "title": "BAD END  Ice",
       "illustration": "/assets/bad_scene02.webp",
-      "deathText": "I rushed the bill and hurried the family outside.\nThe doorbell rang a beat lateand in that beat, my foot slid.\nMy head met frozen pavement.\nPain came second. First came the hiss of phone noise blooming in my ear.\nSomeone shouted to call an ambulance.\nBut the diner phone wouldn't reach 911.\nInstead it connected to an unfamiliar voicemail.\nA woman's voice repeating: this is this is\nThe bleeding shouldn't have been much, but my awareness tore like thin paper.\nThe last sound I heard wasn't a bell or a sirenjust metal hitting the ground."
+      "deathText": "I rushed the bill and hurried the family outside.\nThe doorbell rang a beat late, and in that beat, my foot slid.\nMy head met frozen pavement.\nPain came second. First came the hiss of phone noise blooming in my ear.\nSomeone shouted to call an ambulance.\nBut the diner phone wouldn't reach 911.\nInstead it connected to an unfamiliar voicemail.\nA woman's voice repeating: this is this is\nThe bleeding shouldn't have been much, but my awareness tore like thin paper.\nThe last sound I heard wasn't a bell or a siren, just metal hitting the ground."
     },
     {
       "id": "bad_scene03_b",
@@ -210,13 +210,13 @@
       "id": "bad_scene04_b",
       "title": "BAD END  Wrong Exit",
       "illustration": "/assets/bad_scene04.webp",
-      "deathText": "I slipped through the gate behind a coworker. The alarm didn't sound.\nNo alarm is worse.\nThe hallway lights didn't flickerthey blinked, like an eye.\nThe guard looked over too late.\nYou're not supposed to be here today.\nThen the PA system glitched and broadcast FIRE across the whole building.\nExit signs flipped, pointing the wrong way.\nThe crowd surged to one doorand the door never opened.\nI fell. A shoe pressed into my chest.\nThe last thing I heard wasn't the fire bell. It was a phone ringing."
+      "deathText": "I slipped through the gate behind a coworker. The alarm didn't sound.\nNo alarm is worse.\nThe hallway lights didn't flicker; they blinked, like an eye.\nThe guard looked over too late.\nYou're not supposed to be here today.\nThen the PA system glitched and broadcast FIRE across the whole building.\nExit signs flipped, pointing the wrong way.\nThe crowd surged to one door, and the door never opened.\nI fell. A shoe pressed into my chest.\nThe last thing I heard wasn't the fire bell. It was a phone ringing."
     },
     {
       "id": "bad_scene05_b",
       "title": "BAD END  Wrong Button",
       "illustration": "/assets/bad_scene05.webp",
-      "deathText": "The vending machine labels were worn down. C3 looked like G3.\nWhat fell wasn't a snackit was an old emergency whistle.\nFrank laughed. He couldn't stop.\nI blew the whistle. No sound came out.\nInstead, every phone in the office rang at once.\nIt rang, and nobody answered.\nMy stomach clenchedthis wasn't hunger.\nAt the edge of my vision, coworkers thinned like paper.\nAs I went down, one thought stuck: I should have reached the right number."
+      "deathText": "The vending machine labels were worn down. C3 looked like G3.\nWhat fell wasn't a snack; it was an old emergency whistle.\nFrank laughed. He couldn't stop.\nI blew the whistle. No sound came out.\nInstead, every phone in the office rang at once.\nIt rang, and nobody answered.\nMy stomach clenched; this wasn't hunger.\nAt the edge of my vision, coworkers thinned like paper.\nAs I went down, one thought stuck: I should have reached the right number."
     },
     {
       "id": "bad_scene06_b",
@@ -228,13 +228,13 @@
       "id": "bad_scene07_b",
       "title": "BAD END  Just a Minute",
       "illustration": "/assets/bad_scene07.webp",
-      "deathText": "The couch takes your weight like it was made for you.\nI meant to rest just for a minute.\nBut just for a minute multiplies.\nSomething scraped in the kitchen.\nI turned too late.\nLate is only a beatuntil a beat becomes a disaster.\nCuriosity touches the word gas.\nI grabbed the phone and tried to dial 911, but the TV spoke first.\nThe anchor read my address out loud.\nCalls may be misrouted\nThen the anchor looked at me and mouthed: too late."
+      "deathText": "The couch takes your weight like it was made for you.\nI meant to rest just for a minute.\nBut just for a minute multiplies.\nSomething scraped in the kitchen.\nI turned too late.\nLate is only a beat until a beat becomes a disaster.\nCuriosity touches the word gas.\nI grabbed the phone and tried to dial 911, but the TV spoke first.\nThe anchor read my address out loud.\nCalls may be misrouted\nThen the anchor looked at me and mouthed: too late."
     },
     {
       "id": "bad_scene08_b",
       "title": "BAD END  Smoke Alarm",
       "illustration": "/assets/bad_scene08.webp",
-      "deathText": "I shut the door, and the burnt smell stayed inside.\nA smell that lingers is usually real.\nAt midnight, the smoke alarm went off.\nIt rang politelylike a phone bell.\nDownstairs, the wiring was black and the insulation had melted.\nThe fire was still small, but the exit felt far away.\nThe front lock wouldn't turn.\nSomething was stuffed in the keyhole  paper, jammed deep.\nOn it, three digits: 911.\nOutside, Hudson said: I tried to call for help. It won't connect."
+      "deathText": "I shut the door, and the burnt smell stayed inside.\nA smell that lingers is usually real.\nAt midnight, the smoke alarm went off.\nIt rang politely, like a phone bell.\nDownstairs, the wiring was black and the insulation had melted.\nThe fire was still small, but the exit felt far away.\nThe front lock wouldn't turn.\nSomething was stuffed in the keyhole  paper, jammed deep.\nOn it, three digits: 911.\nOutside, Hudson said: I tried to call for help. It won't connect."
     },
     {
       "id": "bad_scene09_b",
