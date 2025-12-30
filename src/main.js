@@ -13,6 +13,11 @@ let gameData = null;
 /** @type {string} */
 let currentId = "scene1";
 
+/** @type {boolean} */
+let started = false;
+
+const TITLE_ILLUSTRATION = "/assets/title.webp";
+
 const app = document.querySelector("#app");
 
 function el(tag, props = {}, children = []) {
@@ -41,7 +46,14 @@ function badSceneIndexFromId(id) {
   return Number.isFinite(n) ? n : null;
 }
 
+function startGame() {
+  started = true;
+  currentId = "scene1";
+  render();
+}
+
 function restart() {
+  started = true;
   currentId = "scene1";
   render();
 }
@@ -97,6 +109,22 @@ function render() {
   }
 
   const total = gameData.meta.totalScenes ?? 10;
+
+  if (!started) {
+    app.replaceChildren(
+      el("main", { class: "container" }, [
+        renderHeader("TITLE"),
+        el("div", { class: "card" }, [
+          renderIllustration(TITLE_ILLUSTRATION, gameData?.meta.gameTitle ?? "911"),
+          el("p", { class: "hint", text: gameData?.meta.note ?? "No saves. Reload restarts from Scene 1." }),
+          renderButtons([
+            el("button", { class: "btn", type: "button", onClick: startGame, text: "Start Game" })
+          ])
+        ])
+      ])
+    );
+    return;
+  }
 
   if (currentId === gameData.clear.id) {
     const clear = gameData.clear;
@@ -182,6 +210,7 @@ async function boot() {
     const res = await fetch(DATA_URL, { cache: "no-store" });
     if (!res.ok) throw new Error(`Failed to load data: ${res.status}`);
     gameData = await res.json();
+    started = false;
     currentId = "scene1";
     render();
   } catch (e) {
