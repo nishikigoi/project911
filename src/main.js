@@ -91,6 +91,12 @@ function renderActions(buttons) {
   return el("div", { class: "actions" }, buttons);
 }
 
+function renderResultBanner(kind, title) {
+  return el("div", { class: `banner banner--${kind}` }, [
+    el("div", { class: "bannerTitle", text: title })
+  ]);
+}
+
 function render() {
   if (!app) return;
 
@@ -126,6 +132,7 @@ function render() {
     app.replaceChildren(
       el("main", { class: "container" }, [
         el("div", { class: "card" }, [
+          renderResultBanner("clear", "YOU SURVIVED"),
           renderIllustration(clear.illustration, clear.title),
           renderTextBlock(clear.clearText),
           renderActions([
@@ -183,6 +190,7 @@ function render() {
     app.replaceChildren(
       el("main", { class: "container" }, [
         el("div", { class: "card" }, [
+          renderResultBanner("over", "GAME OVER"),
           renderIllustration(bad.illustration, bad.title),
           renderTextBlock(bad.deathText),
           renderActions([

@@ -108,6 +108,29 @@ html, body {
   color: #bdbdbd;
 }
 
+.banner {
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+}
+
+.bannerTitle {
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner--over {
+  border-color: #3a3a3a;
+}
+
+.banner--clear {
+  border-color: #3a3a3a;
+}
+
 .actions {
   margin-top: 16px;
   padding-top: 16px;
