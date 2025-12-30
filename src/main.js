@@ -53,7 +53,7 @@ function startGame() {
 }
 
 function restart() {
-  started = true;
+  started = false;
   currentId = "scene1";
   render();
 }
@@ -113,7 +113,7 @@ function render() {
         el("div", { class: "card" }, [
           renderIllustration(TITLE_ILLUSTRATION, gameData?.meta.gameTitle ?? "911"),
           renderActions([
-            el("button", { class: "btn", type: "button", onClick: startGame, text: "Start Game" })
+            el("button", { class: "btn", type: "button", onClick: startGame, text: "START GAME" })
           ])
         ])
       ])
@@ -129,7 +129,7 @@ function render() {
           renderIllustration(clear.illustration, clear.title),
           renderTextBlock(clear.clearText),
           renderActions([
-            el("button", { class: "btn secondary", type: "button", onClick: restart, text: "Restart" })
+            el("button", { class: "btn secondary", type: "button", onClick: restart, text: "RETURN TO TITLE" })
           ])
         ])
       ])
@@ -169,7 +169,7 @@ function render() {
             ...choiceButtons
           ]),
           renderActions([
-            el("button", { class: "btn secondary", type: "button", onClick: restart, text: "Restart" })
+            el("button", { class: "btn secondary", type: "button", onClick: restart, text: "RETURN TO TITLE" })
           ])
         ])
       ])
@@ -186,7 +186,7 @@ function render() {
           renderIllustration(bad.illustration, bad.title),
           renderTextBlock(bad.deathText),
           renderActions([
-            el("button", { class: "btn", type: "button", onClick: restart, text: "Start Over" })
+            el("button", { class: "btn secondary", type: "button", onClick: restart, text: "RETURN TO TITLE" })
           ])
         ])
       ])
