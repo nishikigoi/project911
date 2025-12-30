@@ -67,8 +67,8 @@ function findBadEnd(id) {
 }
 
 
-function renderIllustration(src, alt) {
-  return el("div", { class: "illusWrap" }, [
+function renderIllustration(src, alt, aspectRatio = "3 / 2") {
+  return el("div", { class: "illusWrap", style: `aspect-ratio: ${aspectRatio};` }, [
     el("img", {
       class: "illus",
       src,
@@ -91,8 +91,8 @@ function renderActions(buttons) {
   return el("div", { class: "actions" }, buttons);
 }
 
-function renderHeroIllustration(src, alt, overlayText) {
-  return el("div", { class: "heroWrap" }, [
+function renderHeroIllustration(src, alt, overlayText, aspectRatio = "3 / 2") {
+  return el("div", { class: "heroWrap", style: `aspect-ratio: ${aspectRatio};` }, [
     el("img", {
       class: "illus",
       src,
@@ -126,7 +126,7 @@ function render() {
     app.replaceChildren(
       el("main", { class: "container" }, [
         el("div", { class: "card" }, [
-          renderIllustration(TITLE_ILLUSTRATION, gameData?.meta.gameTitle ?? "911"),
+          renderIllustration(TITLE_ILLUSTRATION, gameData?.meta.gameTitle ?? "911", "2 / 3"), 
           renderActions([
             el("button", { class: "btn", type: "button", onClick: startGame, text: "START GAME" })
           ])
