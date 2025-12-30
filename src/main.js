@@ -91,9 +91,18 @@ function renderActions(buttons) {
   return el("div", { class: "actions" }, buttons);
 }
 
-function renderResultBanner(kind, title) {
-  return el("div", { class: `banner banner--${kind}` }, [
-    el("div", { class: "bannerTitle", text: title })
+function renderHeroIllustration(src, alt, overlayText) {
+  return el("div", { class: "heroWrap" }, [
+    el("img", {
+      class: "illus",
+      src,
+      alt,
+      loading: "lazy",
+      decoding: "async"
+    }),
+    el("div", { class: "heroOverlay" }, [
+      el("div", { class: "heroTitle", text: overlayText })
+    ])
   ]);
 }
 
@@ -132,8 +141,7 @@ function render() {
     app.replaceChildren(
       el("main", { class: "container" }, [
         el("div", { class: "card" }, [
-          renderResultBanner("clear", "YOU SURVIVED"),
-          renderIllustration(clear.illustration, clear.title),
+          renderHeroIllustration(clear.illustration, clear.title, "YOU SURVIVED"),
           renderTextBlock(clear.clearText),
           renderActions([
             el("button", { class: "btn secondary", type: "button", onClick: restart, text: "RETURN TO TITLE" })
@@ -190,8 +198,7 @@ function render() {
     app.replaceChildren(
       el("main", { class: "container" }, [
         el("div", { class: "card" }, [
-          renderResultBanner("over", "GAME OVER"),
-          renderIllustration(bad.illustration, bad.title),
+          renderHeroIllustration(bad.illustration, bad.title, "GAME OVER"),
           renderTextBlock(bad.deathText),
           renderActions([
             el("button", { class: "btn secondary", type: "button", onClick: restart, text: "RETURN TO TITLE" })

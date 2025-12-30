@@ -52,6 +52,28 @@ html, body {
   margin: 0 0 12px;
 }
 
+.heroWrap {
+  position: relative;
+  margin: 0 0 12px;
+}
+
+.heroOverlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 12px;
+  background: linear-gradient(to bottom, #111 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.heroTitle {
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .illus {
   width: 100%;
   height: auto;
@@ -106,29 +128,6 @@ html, body {
 .hint {
   margin: 0;
   color: #bdbdbd;
-}
-
-.banner {
-  margin: 0 0 12px;
-  padding: 10px 12px;
-  border-radius: 12px;
-  border: 1px solid #333;
-  background: #1a1a1a;
-}
-
-.bannerTitle {
-  font-weight: 900;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.banner--over {
-  border-color: #3a3a3a;
-}
-
-.banner--clear {
-  border-color: #3a3a3a;
 }
 
 .actions {
