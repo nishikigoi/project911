@@ -87,6 +87,10 @@ function renderButtons(buttons) {
   return el("div", { class: "buttons" }, buttons);
 }
 
+function renderActions(buttons) {
+  return el("div", { class: "actions" }, buttons);
+}
+
 function render() {
   if (!app) return;
 
@@ -108,7 +112,7 @@ function render() {
       el("main", { class: "container" }, [
         el("div", { class: "card" }, [
           renderIllustration(TITLE_ILLUSTRATION, gameData?.meta.gameTitle ?? "911"),
-          renderButtons([
+          renderActions([
             el("button", { class: "btn", type: "button", onClick: startGame, text: "Start Game" })
           ])
         ])
@@ -124,7 +128,7 @@ function render() {
         el("div", { class: "card" }, [
           renderIllustration(clear.illustration, clear.title),
           renderTextBlock(clear.clearText),
-          renderButtons([
+          renderActions([
             el("button", { class: "btn secondary", type: "button", onClick: restart, text: "Restart" })
           ])
         ])
@@ -162,7 +166,9 @@ function render() {
           renderIllustration(scene.illustration, scene.title),
           renderTextBlock(scene.storyText),
           renderButtons([
-            ...choiceButtons,
+            ...choiceButtons
+          ]),
+          renderActions([
             el("button", { class: "btn secondary", type: "button", onClick: restart, text: "Restart" })
           ])
         ])
@@ -179,7 +185,7 @@ function render() {
         el("div", { class: "card" }, [
           renderIllustration(bad.illustration, bad.title),
           renderTextBlock(bad.deathText),
-          renderButtons([
+          renderActions([
             el("button", { class: "btn", type: "button", onClick: restart, text: "Start Over" })
           ])
         ])
