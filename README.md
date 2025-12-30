@@ -1,13 +1,13 @@
 # Project 911
 
-Choice-based text adventure (horror / absurd).
+A father in 1990s Detroit navigates misrouted 911 calls to keep his family safe—choose carefully, because one wrong decision ends everything.
 
-Browser-only, no saving (does not use LocalStorage / cookies / IndexedDB / server-side persistence).
+Choice-based, browser-only text adventure (horror / absurd). No saving (no LocalStorage / cookies / IndexedDB / server-side persistence).
 
 <p align="center">
-	<img src="public/assets/title.webp" width="32%" alt="Title" />
-	<img src="public/assets/scene01.webp" width="32%" alt="Gameplay" />
-	<img src="public/assets/clear.webp" width="32%" alt="Clear" />
+  <img src="public/assets/title.webp" width="32%" alt="Title" />
+  <img src="public/assets/scene01.webp" width="32%" alt="Gameplay" />
+  <img src="public/assets/clear.webp" width="32%" alt="Clear" />
 </p>
 
 ## Requirements
@@ -43,6 +43,12 @@ Build output is `dist/`.
 - A wrong choice immediately leads to a BAD END
 - 10 consecutive correct choices leads to GAME CLEAR
 - No saving: reloading restarts from Scene 1
+
+## AI Disclosure
+
+This project was created with assistance from generative AI tools, including parts of the source code and some of the game’s illustrations.
+
+If you reuse or distribute this project, please review the contents to ensure they meet your requirements and do not assume AI-generated outputs are error-free.
 
 ## License
 
