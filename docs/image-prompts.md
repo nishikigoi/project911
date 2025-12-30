@@ -1,104 +1,104 @@
-# Project 911 – Image Prompts (Noir Illustration, 16:9)
+# Project 911  Image Prompts (Noir Illustration, 16:9)
 
-目的: 各シーンに合う画像を、同一トーン（ノワールなイラスト）で生成するためのプロンプト集。
+Purpose: A prompt pack to generate one illustration per scene with a consistent noir tone.
 
-- 画角: 16:9（推奨: 1280×720 / 1920×1080）
-- 共通ルール: 文字・ロゴ・透かしなし、UI要素なし、過度な流血/ゴアなし（暗さはOK、直接的な残酷描写は避ける）
-
----
-
-## 共通スタイル（コピペ用）
-
-**Style block（JP+EN混在でOK）**
-- ノワールなイラスト風、映画的ライティング、強い明暗差（high contrast, chiaroscuro）
-- 低彩度（muted colors）、寒色寄り（blue-gray）、わずかなフィルムグレイン（subtle film grain）
-- 50mm相当の自然なパース、シネマティックな構図、背景に街の気配
-
-**Negative（汎用）**
-- 文字, テロップ, 字幕, ロゴ, 透かし, サイン, UI
-- 低品質, ぼやけ, 破綻, 余計な指, 奇形, 顔の崩れ
-- 派手な原色, アニメ塗りすぎ, コミカル, 過度なゴア, 露骨な血
+- Aspect ratio: 16:9 (recommended: 1280720 / 19201080)
+- Global rules: no text/logos/watermarks, no UI elements, avoid excessive gore (dark is fine; avoid explicit brutality)
 
 ---
 
-## 登場人物の固定イメージ（統一感用）
+## Common Style (copy/paste)
 
-- デイビッド: 30代後半、短髪、無精ひげ、疲れた目。作業着〜控えめなジャケット、落ち着いた色。
-- メアリー: 30代、実務的、清潔感。派手ではない。影の中でも芯の強さ。
-- リリー: 小学生、画用紙や工作道具が似合う。
-- トミー: 幼い、靴ひもやテレビなど「生活感」の小物と一緒に。
+**Style block**
+- Noir illustration style, cinematic lighting, strong contrast (high contrast, chiaroscuro)
+- Muted colors, cool tone (blue-gray), subtle film grain
+- Natural perspective (50mm equivalent), cinematic composition, a hint of city presence in the background
+
+**Negative (generic)**
+- text, captions, subtitles, logo, watermark, signature, UI
+- low quality, blurry, broken anatomy, extra fingers, deformed face
+- overly bright primary colors, too anime, comedic, excessive gore, explicit blood
 
 ---
 
-## 生成プロンプト一覧（ファイル名対応）
+## Character Anchors (for consistency)
 
-各項目は「Prompt」に共通スタイルを足す想定です。
+- David: late 30s, short hair, stubble, tired eyes. Workwear to a modest jacket. Calm, muted colors.
+- Mary: 30s, practical, clean look. Not flashy. Strong presence even in shadow.
+- Lily: elementary school age; fits with drawing paper and craft tools.
+- Tommy: young child; small everyday props like shoelaces or a TV remote.
+
+---
+
+## Prompt List (matches filenames)
+
+Assume you add the Common Style block to each Prompt.
 
 ### Scenes
 
-**public/assets/scene01.webp**（朝のキッチン／冷蔵庫が空）
-- Prompt: 薄暗い朝のキッチン。古い冷蔵庫の扉が半開きで庫内はほとんど空、白い冷気が漂う。疲れた父親（30代後半、短髪、無精ひげ、地味なジャケット）が財布を手に考え込む。窓の外に鉛色の空と遠い排気。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene01.webp** (morning kitchen / empty fridge)
+- Prompt: Dim morning kitchen. An old refrigerator door half open; the inside is almost empty, pale cold air spilling out. A tired father (late 30s, short hair, stubble, modest jacket) holds a wallet and hesitates. Outside the window: a lead-gray sky and distant exhaust haze. 16:9.
 
-**public/assets/scene02.webp**（喫茶店／変な電話）
-- Prompt: こぢんまりした古いアメリカの喫茶店。カウンター、コーヒーの湯気、油の匂いが伝わるような空気。壁の固定電話が不穏に置かれている。ウェイトレスが小声で話し、父親が聞き返す瞬間。窓の外にスクールバスの気配。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene02.webp** (diner / strange phone)
+- Prompt: A small, old American diner. Counter, steam from coffee, air that suggests grease and warmth. A wall-mounted landline sits uneasily in frame. The waitress speaks quietly; the father leans in to ask again. Outside the window, the presence of a school bus. 16:9.
 
-**public/assets/scene03.webp**（運転中／鉛色の空）
-- Prompt: 古い車の車内視点。フロントガラス越しに鉛色の空、交差点の信号、遠くのサイレンの光。ダッシュボードのAMラジオ。ドライバーの手元（少し緊張した握り）。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene03.webp** (driving / leaden sky)
+- Prompt: Inside an old car, driver viewpoint. Through the windshield: lead-gray sky, an intersection light, far-away siren reflections. An AM radio on the dashboard. The driver's hands on the wheel, slightly tense grip. 16:9.
 
-**public/assets/scene04.webp**（会社ゲート／社員証がない）
-- Prompt: 企業施設の正門とセキュリティゲート。朝の冷気、金属の匂い。警備員が無表情に手を止め、父親が胸ポケットを探している瞬間。行列の人々は影のシルエット。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene04.webp** (company gate / missing badge)
+- Prompt: Corporate facility front gate and security checkpoint. Cold morning air, metallic atmosphere. A guard pauses with a blank expression while the father searches his chest pocket. A queue of people as silhouettes in shadow. 16:9.
 
-**public/assets/scene05.webp**（オフィス／古い自販機）
-- Prompt: 蛍光灯の白い光が冷たいオフィスの休憩スペース。古い自販機、削れたボタン表記、落ちるスナックの影。父親が迷いながらボタンに指を伸ばす手元。背景に同僚の曖昧なシルエット。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene05.webp** (office / old vending machine)
+- Prompt: Office break area under cold fluorescent light. An old vending machine with worn labels and scuffed buttons; the shadow of a snack falling. The father's hand hesitates, finger hovering over a button. Coworkers as vague silhouettes in the background. 16:9.
 
-**public/assets/scene06.webp**（帰宅ラッシュ／スーパーに寄る決意）
-- Prompt: 夕方の駐車場、車のエンジンをかける手元。遠くに渋滞の赤いテールランプが連なる。街灯が点き始め、サイレンの気配。スーパーの看板が遠景にぼんやり見える（文字は読めない程度の形だけ）。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene06.webp** (rush hour / choosing the detour)
+- Prompt: Evening parking lot. Close view of a hand turning a car key. In the distance: traffic and a line of red tail lights, street lights turning on, a hint of sirens. A supermarket sign is visible only as an unreadable shape. 16:9.
 
-**public/assets/scene07.webp**（家／子どもの宿題と生活感）
-- Prompt: 夕方の家庭のリビング。机に広げられた画用紙や工作道具。娘が火山工作の材料を指さし、幼い息子が靴ひもに苦戦している。冷蔵庫にメモが貼られている（文字は読めない）。父親が玄関で立ち止まる。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene07.webp** (home / homework and everyday life)
+- Prompt: Evening family living room. A table covered with poster board and craft tools. A girl points at volcano project materials; a young boy struggles with shoelaces. A note on the fridge is visible but unreadable. The father stands in the doorway, paused. 16:9.
 
-**public/assets/scene08.webp**（夜／隣人と焦げ臭さ）
-- Prompt: 夜の住宅街、玄関先。隣人が帽子を手に持ち、困った表情で焦げた匂いを伝える。家の裏手へ続く暗い通路。街灯の光が硬く影を落とす。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene08.webp** (night / neighbor and burnt smell)
+- Prompt: Nighttime residential street at the front door. A neighbor holds his hat, concerned, explaining a burnt smell. A dark passage leading toward the backyard. Streetlight casts hard shadows. 16:9.
 
-**public/assets/scene09.webp**（電話／ノイズの向こうの女の声）
-- Prompt: 薄暗い室内、固定電話の受話器を手に取る瞬間。電話コード、受話器の影。背景は暗く、窓の外にかすかなパトカーの反射光。空気の粒子が見えるような静けさ。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene09.webp** (phone / woman's voice through noise)
+- Prompt: Dim interior. The moment a hand lifts a landline receiver; phone cord and hard shadow. Background mostly dark; a faint reflection of police lights in a window. Quiet air, visible dust motes. 16:9.
 
-**public/assets/scene10.webp**（地下室／ヒューズボックスと謎の扉）
-- Prompt: 暗い地下室。懐中電灯の円形の光がヒューズボックスの焦げた配線を照らす。奥にもう一枚、古いドアがあり、不自然に存在感がある。湿った木の階段手すり。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/scene10.webp** (basement / fuse box and strange door)
+- Prompt: Dark basement. A flashlight circle reveals scorched wiring at a fuse box. Deeper in the background, an old door with an unnaturally strong presence. Damp wooden stair rail in the foreground. 16:9.
 
 ### Bad Ends
 
-**public/assets/bad_scene01_b.webp**（裏口の影／襲撃の気配）
-- Prompt: 早朝の会社裏手、人気のない通用口。二つの人影が振り向く瞬間。父親の視点が少し揺れ、緊張が伝わる。直接的な暴力表現は避け、直前の不穏さで見せる。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene01.webp** (service entrance / looming attack)
+- Prompt: Early morning behind a company building, empty service entrance. Two human silhouettes turning around at once. Slight shake in the viewpoint; tension without explicit violence. 16:9.
 
-**public/assets/bad_scene02_b.webp**（凍った歩道／転倒の直前）
-- Prompt: 喫茶店の外、凍った歩道。父親の足元が滑りそうな瞬間、手から小銭や鍵がこぼれ落ちる。店のガラスに室内灯が反射。痛々しさは控えめに、危険の瞬間を静止画で。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene02.webp** (frozen sidewalk / just before the fall)
+- Prompt: Outside the diner on an icy sidewalk. A foot slipping; coins and keys spill mid-air. Indoor lights reflect on the glass door. Depict the moment of danger without graphic injury. 16:9.
 
-**public/assets/bad_scene03_b.webp**（近道の廃工場／沈む路面）
-- Prompt: 廃工場地帯の道路。車の前方で路面が沈む兆候、ひび割れ、粉塵。ラジオのノイズ、遠いサイレンの反射光。絶望感のある奥行き。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene03.webp** (factory shortcut / sinking road)
+- Prompt: Road through an abandoned factory district. Cracks and dust hint the pavement is collapsing ahead. Radio static implied; distant siren reflections. Strong depth and hopeless atmosphere. 16:9.
 
-**public/assets/bad_scene04_b.webp**（誤誘導／出口が閉じる）
-- Prompt: ビルの廊下、非常灯の赤い点滅（派手すぎない）。人の流れが一つの出口へ押し寄せ、出口は閉まっている。父親が人波に飲まれそうな瞬間。暴力や流血なし。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene04.webp** (misdirection / blocked exit)
+- Prompt: Building corridor with emergency lights flashing (subtle, not flashy). A crowd pushes toward a single exit that is closed. The father is about to be swallowed by the flow. No blood, no violence. 16:9.
 
-**public/assets/bad_scene05_b.webp**（自販機の異物／不吉な落下物）
-- Prompt: オフィスの自販機から落ちてきた“本来ないもの”が床に転がる。周囲の蛍光灯が冷たく、同僚のシルエットが不自然に静止。父親の手が宙で止まる。超常は控えめに示唆。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene05.webp** (vending machine / wrong drop)
+- Prompt: In an office break area, something that should not be there rolls out from the vending machine. Cold fluorescent lighting. Coworker silhouettes freeze unnaturally. The father's hand stops midair. Supernatural hinted, not shown directly. 16:9.
 
-**public/assets/bad_scene06_b.webp**（電池切れ／暗い地下室の火花）
-- Prompt: 真っ暗な地下室、懐中電灯が点かない。配線の奥で小さな火花が走り、焦げた匂いを想起させる薄い煙。危険は示すがゴアなし。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene06.webp** (dead batteries / spark in the dark)
+- Prompt: Pitch-black basement; the flashlight does not turn on. A small spark runs behind wiring; thin smoke suggests a burnt smell. Show danger without gore. 16:9.
 
-**public/assets/bad_scene07_b.webp**（ソファの油断／生活の不穏）
-- Prompt: リビングのソファで眠気に負けそうな父親。背景のキッチン側で“何か”が動いた気配（子どもの手元はぼかして示唆）。テレビの光が顔に斜めに当たる。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene07.webp** (on the couch / uneasy everyday scene)
+- Prompt: The father slumps on the living room couch, losing the fight with sleep. In the kitchen area, a subtle sign that something moved (only implied). TV light hits his face at an angle. 16:9.
 
-**public/assets/bad_scene08_b.webp**（煙探知機／家の中の煙）
-- Prompt: 暗い廊下の天井、煙探知機の赤い点滅。階段下から上がってくる薄い煙の筋。玄関の鍵穴に紙片が詰まっているのが見える（文字は描かない）。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene08.webp** (smoke alarm / smoke in the house)
+- Prompt: Dark hallway ceiling with a smoke alarm blinking red. Thin smoke rises from downstairs. At the front door, a paper scrap jammed in the keyhole is visible but unreadable. 16:9.
 
-**public/assets/bad_scene09_b.webp**（勝手に鳴る音／ヒューズの閃光）
-- Prompt: 室内の固定電話が置かれた台、その周囲だけが妙に明るく、他は暗い。奥でヒューズボックスの小さな閃光が反射する。視線が落ち着かない不安感。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene09.webp** (ringing without cause / fuse flash)
+- Prompt: A landline phone on a small table; the area around it is oddly bright while the rest of the room is dark. A faint reflection of a small fuse-box flash in the background. Restless, unsettled mood. 16:9.
 
-**public/assets/bad_scene10_b.webp**（電話の部屋／並ぶ受話器）
-- Prompt: 狭い部屋の壁一面に古い電話機が並ぶ。コードは切れているのに不穏な気配。床に散った新聞の切り抜き（文字は描かず紙片として）。背後の配線が赤く光る程度で炎は描かない。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/bad_scene10.webp** (phone room / rows of receivers)
+- Prompt: Narrow room lined wall-to-wall with old telephones. Their cords are cut, yet the atmosphere feels charged. Newspaper clippings on the floor as indistinct paper fragments (no readable text). Behind: wiring glows red slightly, but no flames. 16:9.
 
 ### Clear
 
-**public/assets/clear.webp**（暗闇の静けさ／守れた夜）
-- Prompt: 家の電気が落ちた直後の静けさ。暗いキッチンとリビングの境目、窓から入る街灯の光だけが床を切る。父親が一瞬だけ安堵し、遠くに家族の寝息がある気配。希望は小さく、しかし確かに。ノワールなイラスト風、映画的ライティング、強い明暗差、低彩度、寒色寄り、16:9
+**public/assets/clear.webp** (silence in the dark / the night is saved)
+- Prompt: The quiet immediately after the house power is cut. Boundary between kitchen and living room in darkness; only streetlight through the window slices across the floor. The father shows a brief relief; the presence of sleeping family is felt off-screen. Small but certain hope. 16:9.

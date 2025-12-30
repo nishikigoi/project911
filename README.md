@@ -1,23 +1,24 @@
-# Project 911 (仮)
+# Project 911 (temp)
 
-テキストアドベンチャー（選択肢型） + ホラー／不条理。
-**ブラウザ完結保存なし**（LocalStorage / Cookie / IndexedDB / サーバ保存は使いません）。
+Choice-based text adventure (horror / absurd).
 
-## 必要環境（Windows + WSL2）
+Browser-only, no saving (does not use LocalStorage / cookies / IndexedDB / server-side persistence).
+
+## Requirements (Windows + WSL2)
 
 - Windows: VS Code
-- WSL2 (Ubuntuなど)
-- Node.js / npm（このリポジトリは Vite + Vanilla JS）
+- WSL2 (Ubuntu, etc.)
+- Node.js / npm (this repo uses Vite + Vanilla JS)
 
-### Node導入（nvm推奨）
+### Installing Node (recommended: nvm)
 
-WSL内で：
+In WSL:
 
 ```bash
 # nvm
 curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
-# 反映（新しいシェルを開くのが確実）
+# load nvm (opening a new shell is the safest option)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
@@ -26,39 +27,38 @@ nvm install --lts
 nvm use --lts
 ```
 
-## 開発
+## Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-- `public/data/gameData.json` がシーン／BAD END／クリアのデータです
-- 画像は `public/assets/` に置きます（現状はSVGプレースホルダ）
+- `public/data/gameData.json` contains all scene / BAD END / clear data
+- Put images in `public/assets/`
 
-## ビルド
+## Build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-出力は `dist/` です。
+Build output is `dist/`.
 
-## ゲーム進行（仕様）
+## Game Rules
 
-- Scene1から開始
-- 各Sceneは2択（A/B）。正解ルートは1つのみ
-- 誤選択は即BAD END
-- 10連続正解で GAME CLEAR
-- **保存なし**：リロードすると最初から（Scene1）
+- Starts from Scene 1
+- Each scene has 2 choices (A/B)
+- Exactly one route is correct
+- A wrong choice immediately leads to a BAD END
+- 10 consecutive correct choices leads to GAME CLEAR
+- No saving: reloading restarts from Scene 1
 
-## Cloudflare Pages デプロイ
+## Deploy to Cloudflare Pages
 
-Cloudflare PagesでGitHub連携してデプロイできます。
+You can deploy via GitHub integration on Cloudflare Pages.
 
 - Framework preset: `Vite`
 - Build command: `npm run build`
 - Build output directory: `dist`
-
-初回デプロイ後、`public/assets/` のプレースホルダSVGを WebP 等に差し替えていく想定です。

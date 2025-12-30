@@ -1,187 +1,187 @@
 {
   "meta": {
-    "gameTitle": "911",
+    "gameTitle": "911 (temp)",
     "setting": "1990s Detroit, USA",
     "totalScenes": 10,
-    "note": "No-save. Reload restarts from Scene1."
+    "note": "No saves. Reload restarts from Scene 1."
   },
   "scenes": [
     {
       "id": "scene1",
-      "title": "Morning - Missing Breakfast",
+      "title": "Morning  Missing Breakfast",
       "illustration": "/assets/scene01.webp",
-      "storyText": "目覚まし時計が鳴るより先に、冷蔵庫のモーターが低く唸った。\n扉を開けると、冷気だけがやけに元気だ。\n牛乳はない。卵のパックも軽い。\n窓の外では、デトロイトの朝が排気ガスを白く漂わせている。\n妻のメアリーはもう出勤していて、メモだけが残っていた。\n「買い物、昨日の帰りにお願いね」\nお願いされたのは昨日。いまは今日。\n娘のリリーはココアを待つ目をしている。\n息子のトミーは靴ひもを結ぶ練習をしている。\n父親の一日は、こういう小さな不足から傾く。\nデイビッドはジャケットのポケットを叩き、財布の薄さを確かめた。",
+      "storyText": "Before the alarm clock could ring, the refrigerator's motor gave a low groan.\nWhen I opened the door, the cold air felt strangely energetic.\nNo milk. The egg carton was light, too.\nOutside the window, Detroit morning smudged the street in pale exhaust.\nMary had already left for work; only a note remained.\nPick up groceries on your way back today, okay?\nShe'd asked yesterday. It was today now.\nLily looked like she was waiting for cocoa.\nTommy was practicing tying his shoelaces.\nA father's day starts tilting from these small shortages.\nI patted my jacket pocket and felt how thin my wallet was.",
       "choices": [
         {
           "label": "A",
-          "text": "通りにある行きつけの喫茶店へ行って、家族の分も軽く食べる",
+          "text": "Go to the usual diner and grab something quick for everyone.",
           "next": "scene2"
         },
         {
           "label": "B",
-          "text": "今日は朝食なしでいい。そのまま早めに出勤する",
+          "text": "Skip breakfast and head to work early.",
           "next": "bad_scene01_b"
         }
       ]
     },
     {
       "id": "scene2",
-      "title": "Morning - The Diner and the Ring",
+      "title": "Morning  The Diner and the Ring",
       "illustration": "/assets/scene02.webp",
-      "storyText": "喫茶店のドアベルは、いつも少し遅れて鳴る。\n油とコーヒーの匂いが、家よりも先に肩の力を抜かせる。\n顔なじみのウェイトレスが、笑いながら席へ案内してくれる。\n「今朝ね、電話が変なの。何度もナインワンワンって言うの」\n店の壁の電話は、確かに一度だけ短く鳴った。\n鳴って、止まって、何もなかったように沈黙する。\n窓の外にはスクールバス、新聞配達、そしてサイレンの遠吠え。\nデイビッドは家族のパンケーキを思い浮かべる。\n同時に、なぜか誰かの息遣いが耳に残る。\n一日の正しい始め方は、こういう違和感を放置しないことかもしれない。",
+      "storyText": "The diner's doorbell always rings a beat late.\nThe smell of grease and coffee loosens your shoulders before you even sit down.\nThe waitress, a familiar face, guides us to a booth with a grin.\nSomething's wrong with the phone this morning, she says. It keeps saying nine-one-one.\nThe wall phone did ring onceshort and sharp.\nThen it stopped, and the place swallowed the silence like nothing happened.\nOutside: a school bus, a newspaper kid, and the far howl of a siren.\nI picture pancakes for the family.\nAnd still, for some reason, someone's breathing lingers in my ear.\nMaybe the right way to start a day is not to leave a feeling like this unattended.",
       "choices": [
         {
           "label": "A",
-          "text": "ウェイトレスに事情を聞き、店の電話の受話器を一度だけ確かめる",
+          "text": "Ask what happened and check the phone receiver once.",
           "next": "scene3"
         },
         {
           "label": "B",
-          "text": "気にしない。会計を急いで済ませ、外へ出る",
+          "text": "Ignore it, pay quickly, and step outside.",
           "next": "bad_scene02_b"
         }
       ]
     },
     {
       "id": "scene3",
-      "title": "Commute - The Right Lane",
+      "title": "Morning  Leaden Sky",
       "illustration": "/assets/scene03.webp",
-      "storyText": "車は古いが、エンジンはまだ粘り強い。\nラジオはAM。ニュースは同じ単語を繰り返す。\n「緊急通報。回線の不具合。誤接続」\nデイビッドの会社は郊外。いつもなら高速で一本だ。\nだが今日の空は、鉛色で重い。\n交差点の信号が、ほんの一拍だけ遅れて変わった気がする。\n遅れは些細で、しかし事故は些細から始まる。\nスピードを上げるのは簡単だ。下げるのは勇気がいる。\nフロントガラスの端に、黒い鳥が一羽、同じ高さを飛んでいる。\nデイビッドは、その鳥に追いつけないと知っている。",
+      "storyText": "The car is old, but the engine still has grit.\nAM radio. The news repeats the same words until they turn to static.\nEmergency lines. Routing issues. Misconnections.\nMy company is out in the suburbsnormally one straight shot on the highway.\nBut the sky today is a heavy, leaden gray.\nAt an intersection, the light seems to change a fraction of a beat too late.\nIt's tiny. And tiny delays are where accidents begin.\nSpeeding up is easy. Slowing down takes nerve.\nAlong the edge of the windshield, a black bird keeps pace at the same height.\nI know I can't catch it.",
       "choices": [
         {
           "label": "A",
-          "text": "いつもの高速ルートを選び、制限速度を守って走る",
+          "text": "Stay on the main road and drive carefully.",
           "next": "scene4"
         },
         {
           "label": "B",
-          "text": "渋滞を避けて、廃工場地帯の近道に入る",
+          "text": "Take a shortcut through the back streets.",
           "next": "bad_scene03_b"
         }
       ]
     },
     {
       "id": "scene4",
-      "title": "Work - The Badge Problem",
+      "title": "Morning  No Badge",
       "illustration": "/assets/scene04.webp",
-      "storyText": "会社の駐車場は、朝の冷気で金属の匂いがする。\n正門のセキュリティゲートに並ぶ人々は、眠そうで規則的だ。\nデイビッドは胸ポケットを探り、硬いプラスチックがないことに気づく。\n社員証がない。\n昨日、ソファの隙間に落ちたのか。\n子どもの宿題を見ながら、どこかへ置いたのか。\nセキュリティの男は無表情で、しかし目だけが忙しい。\n正しい手順は面倒だ。\nけれど面倒は、事故を防ぐための儀式でもある。\nデイビッドは自分の名前を、しっかり口の中で確かめた。",
+      "storyText": "The company parking lot smells like metal in the morning cold.\nAt the security gate, people line up in sleepy, practiced order.\nI reach for my chest pocket and feel nothing but fabric.\nMy badge is gone.\nMaybe it slipped between the couch cushions.\nMaybe I set it down while helping with homework.\nThe guard's face stays blank, but his eyes are busy.\nProcedure is a hassle.\nBut it's also a ritual that keeps accidents from happening.\nI say my own name silently, making sure it still fits.",
       "choices": [
         {
           "label": "A",
-          "text": "正門で事情を説明し、臨時入館手続きを取る（HRへ連絡する）",
+          "text": "Explain and follow the proper check-in procedure.",
           "next": "scene5"
         },
         {
           "label": "B",
-          "text": "同僚の後ろに紛れてゲートをすり抜ける（追尾入館）",
+          "text": "Slip in behind someone and get through the gate.",
           "next": "bad_scene04_b"
         }
       ]
     },
     {
       "id": "scene5",
-      "title": "Noon - The Vending Machine",
+      "title": "Noon  The Vending Machine",
       "illustration": "/assets/scene05.webp",
-      "storyText": "昼。オフィスの空気は、紙と蛍光灯の匂いがする。\n会議室で聞いた数字が、頭の中で硬貨みたいに転がる。\n同僚のフランクが肩を叩き、笑いながら言った。\n「昼メシ？ 自販機のスナックで十分だろ」\n自販機は古く、選択ボタンの文字が削れている。\nC3がG3に見える。\n間違えたら、違うものが落ちてくる。\n落ちてくるのはスナックだけではない。\n胃の底に沈む不安も、同じ仕組みで落ちてくる。\nデイビッドは家族の朝の顔を思い出し、腹の音を聞いた。",
+      "storyText": "Noon. The office air tastes of paper and fluorescent light.\nThe numbers from the meeting roll through my head like coins.\nFrank claps my shoulder and laughs.\nLunch? The vending machine's enough.\nIt's old. The labels are worn down.\nC3 looks like G3.\nPress wrong, and something else drops.\nAnd it's not only snacks that drop like that.\nA worry falls into your gut the same way.\nI think of the kids at breakfast and listen to my stomach.",
       "choices": [
         {
           "label": "A",
-          "text": "外へ出て、ちゃんとしたサンドイッチを買って食べる",
+          "text": "Double-check the label and choose carefully.",
           "next": "scene6"
         },
         {
           "label": "B",
-          "text": "自販機の安いスナックだけで済ませる",
+          "text": "Just press a buttonanything is fine.",
           "next": "bad_scene05_b"
         }
       ]
     },
     {
       "id": "scene6",
-      "title": "After Work - One Errand",
+      "title": "Evening  The Detour",
       "illustration": "/assets/scene06.webp",
-      "storyText": "仕事が終わると、街の音がいっせいに前へ出てくる。\n帰宅ラッシュのクラクション、遠いサイレン、レジの電子音。\nデイビッドは駐車場でキーを回しながら、朝の空腹を思い出す。\n家の冷蔵庫は空だった。\n買い物は忘れた瞬間から、家族全員の問題になる。\nスーパーに寄るのは遠回りだ。だが遠回りが、時々いちばん安全だ。\nラジオがまた言う。\n「緊急通報の誤接続は解消されつつあります。万一の際は落ち着いてください」\n落ち着くのは難しい。\nデイビッドは、落ち着くためにすべきことを知っている。",
+      "storyText": "When work ends, the city's noise steps forward all at once.\nHorns in rush hour, a distant siren, the beep of a checkout scanner.\nIn the parking lot, turning the key, I remember the empty fridge.\nForgetting groceries stops being one person's mistake the moment you get home.\nThe supermarket is a detour.\nBut detours are sometimes the safest route.\nThe radio insists: misdirected emergency calls are being resolved. Please remain calm.\nStaying calm is hard.\nStill, I know what I need to do.",
       "choices": [
         {
           "label": "A",
-          "text": "スーパーに寄り、牛乳とパンと電池を買って帰る",
+          "text": "Stop by the supermarket before going home.",
           "next": "scene7"
         },
         {
           "label": "B",
-          "text": "面倒だ。今日はまっすぐ帰って、家で何とかする",
+          "text": "Go straight home and deal with it later.",
           "next": "bad_scene06_b"
         }
       ]
     },
     {
       "id": "scene7",
-      "title": "Evening - The Science Fair",
+      "title": "Evening  Homework and Notes",
       "illustration": "/assets/scene07.webp",
-      "storyText": "玄関を開けると、家の匂いが仕事の匂いを押し返す。\n夕方の光は薄く、カーテンの影が床に長い。\nリリーが机に広げた画用紙は、宇宙みたいに散らかっていた。\n「パパ、明日までに火山を作るの。発泡スチロールがいる」\nトミーはテレビを見ているが、音量が小さすぎて逆に落ち着かない。\nメアリーのメモが冷蔵庫に増えている。\n「頼むね」の文字が、昨日よりも濃い。\n父親の役目は、手を貸すことだ。\n手を貸さないことは、簡単だ。\n簡単な方へ寄ると、なぜか街のサイレンが近づく気がした。",
+      "storyText": "I open the front door and the smell of home pushes back the smell of work.\nEvening light is thin; the curtains cast long shadows on the floor.\nLily's poster board on the table looks like a galaxy of clutter.\nDad, I have to build a volcano by tomorrow. I need styrofoam.\nTommy watches TV, but the volume is too lowso low it's unsettling.\nAnother note has appeared on the refrigerator.\nThe word please looks darker than yesterday.\nA father's job is to help.\nNot helping is easy.\nAnd whenever I choose the easy way, the sirens outside feel a little closer.",
       "choices": [
         {
           "label": "A",
-          "text": "リリーの火山工作を一緒に作る（材料を探し、段取りを組む）",
+          "text": "Help Lily with the project and check on Tommy.",
           "next": "scene8"
         },
         {
           "label": "B",
-          "text": "疲れている。ソファでテレビをつけて休む",
+          "text": "Tell them you're tired and sit down for a minute.",
           "next": "bad_scene07_b"
         }
       ]
     },
     {
       "id": "scene8",
-      "title": "Night - The Neighbor's Knock",
+      "title": "Night  A Neighbor's Knock",
       "illustration": "/assets/scene08.webp",
-      "storyText": "日が落ちると、デトロイトは急に静かになる。\n静かすぎて、家のきしみが会話みたいに聞こえる。\nドアを叩く音がした。二回。規則的。\n隣人のミスターハドソンが、帽子を手に持って立っていた。\n「悪いな、デイビッド。裏手から変な匂いがする。焦げたみたいな」\n焦げ臭い、というのは火の言い換えだ。\n火は通報の理由だ。\n通報は、今夜の街では少し頼りない。\nそれでも、火は待ってくれない。\nデイビッドは家族の寝息を背中に感じながら、外の闇を見た。",
+      "storyText": "After sunset, Detroit turns suddenly quiet.\nSo quiet the house's creaks sound like conversation.\nA knock. Twice. Evenly spaced.\nMr. Hudson from next door stands there, hat in hand.\nSorry, David. There's a weird smell out back. Like something's burning.\nBurning is just another word for fire.\nFire is why you call.\nCallingtonightfeels unreliable.\nBut fire doesn't wait.\nI feel my family's breathing behind me and look into the dark.",
       "choices": [
         {
           "label": "A",
-          "text": "懐中電灯を持ってハドソンと一緒に裏手を確認する",
+          "text": "Go outside with Hudson and check the smell.",
           "next": "scene9"
         },
         {
           "label": "B",
-          "text": "気のせいだと言って、ドアを閉める（明日に回す）",
+          "text": "Dismiss it and close the door for the night.",
           "next": "bad_scene08_b"
         }
       ]
     },
     {
       "id": "scene9",
-      "title": "Night - Wrong Number, Right Voice",
+      "title": "Night  The Voice in the Noise",
       "illustration": "/assets/scene09.webp",
-      "storyText": "裏手の空気は冷たく、焦げ臭さは確かにあった。\nしかし炎は見えない。煙もない。\n見えない火は、いちばん厄介だ。\n家に戻ると電話が鳴った。今度ははっきりと。\n受話器の向こうはノイズだらけで、その奥に女の声がいた。\n「こちら、ナインワンワン。あなたは聞こえますか」\n911なのに、どこか遠い。\n女の声は住所を言い当て、家族の人数まで言った。\nデイビッドは喉が乾く。\n間違い電話のはずが、間違いで済まない。",
+      "storyText": "The air behind the house is cold, and the burnt smell is real.\nBut I can't see flames. No smoke.\nA fire you can't see is the worst kind.\nBack inside, the phone rings againthis time clearly.\nThe line is a nest of noise, and inside it a woman's voice.\nThis is nine-one-one. Can you hear me?\nIt says 911, but it feels far away.\nShe recites my address. She knows how many people are in my house.\nMy throat dries out.\nA wrong number shouldn't know that much.",
       "choices": [
         {
           "label": "A",
-          "text": "受話器を置かず、相手の指示を最後まで聞いて質問する",
+          "text": "Keep her talking and do exactly what she says.",
           "next": "scene10"
         },
         {
           "label": "B",
-          "text": "不気味すぎる。すぐ電話を切って、見なかったことにする",
+          "text": "Hang up. It has to be a prank.",
           "next": "bad_scene09_b"
         }
       ]
     },
     {
       "id": "scene10",
-      "title": "Late Night - The Fuse Box",
+      "title": "Night  The Fuse Box",
       "illustration": "/assets/scene10.webp",
-      "storyText": "女の声は落ち着いていた。落ち着きすぎていた。\n「今すぐ、地下のヒューズボックスを確認してください。\n　焦げの原因は火ではなく、電気です」\n地下室の階段は暗く、木の手すりが湿っている。\n懐中電灯の光が、古い洗濯機と段ボールを切り分ける。\nヒューズボックスの前で、デイビッドは焦げ臭さの正体を見つけた。\n配線が黒く、しかし火はまだ出ていない。\n今なら、止められる。\nだが地下室の奥には、もう一つドアがある。\nいつからあった？ こんなドア。\nデイビッドは手を伸ばす先を選ぶ。",
+      "storyText": "Her voice stays calmtoo calm.\nGo to the basement fuse box right now. The smell isn't fire. It's electricity.\nThe basement stairs are dark, the wooden rail damp to the touch.\nMy flashlight cuts old appliances and cardboard into pieces.\nAt the fuse box, I find it: a run of wire blackened, but not yet burning.\nIf I act now, I can stop it.\nBut deeper in the basement is another door.\nSince when was that there?\nI reach out, and choose where my hand goes.",
       "choices": [
         {
           "label": "A",
-          "text": "まずヒューズを落とし、家全体の電気を安全に止める",
+          "text": "Cut the power at the fuse box first.",
           "next": "clear"
         },
         {
           "label": "B",
-          "text": "気になる奥のドアを先に開けて確かめる",
+          "text": "Open the strange door in the back first.",
           "next": "bad_scene10_b"
         }
       ]
@@ -190,69 +190,69 @@
   "badEnds": [
     {
       "id": "bad_scene01_b",
-      "title": "GAME OVER",
+      "title": "BAD END  Early Shift",
       "illustration": "/assets/bad_scene01.webp",
-      "deathText": "朝食を抜いたデイビッドは、いつもより早く会社へ着いた。\n七時半。正門はまだ開いていない。\n勤勉は時々、空回りする。\n裏門へ回ると、そこには誰もいないはずの影が二つあった。\n金庫泥棒が、まるで自分の出勤を待っていたみたいに振り向く。\n次の瞬間、鈍い衝撃が頭の内側で鳴り、視界がぐにゃりと歪んだ。\n救急車のサイレンが遠くなる。\n遠くなるのに、なぜか家の電話のベルだけが耳の奥で鳴り続ける。\n担架の上で聞こえた声は、喫茶店のウェイトレスの声に似ていた。\n「今朝、電話が変なの」\nデイビッドの意識は、返事をする前に暗闇へ落ちた。"
+      "deathText": "David skipped breakfast and reached the company early.\n7:30 AM. The front gate wasn't even open yet.\nHard work sometimes just spins its wheels.\nWhen I cut around to the service entrance, two shadows waited where no one should be.\nThe moment they turned, it felt like they'd been expecting my shift.\nA blunt impact rang inside my skull. The world warped.\nThe ambulance siren drifted farther and farther away.\nBut somehow, the only bell that kept ringing was a phonedeep in my ear.\nAs the stretcher rolled, I heard a voice like the diner waitress: the phone's been weird today.\nI never managed to answer before the dark took me."
     },
     {
       "id": "bad_scene02_b",
-      "title": "GAME OVER",
+      "title": "BAD END  Ice",
       "illustration": "/assets/bad_scene02.webp",
-      "deathText": "会計を急いだデイビッドは、家族を急かして店を出た。\nドアベルが遅れて鳴り、鳴った瞬間に彼の足が滑った。\n凍った歩道に頭を打つ。\n痛みより先に、耳元で電話のノイズが広がった気がした。\n救急車を呼ぼうと誰かが叫ぶ。\nだが店内の電話は、さっきから911に繋がらない。\n代わりに繋がったのは、見知らぬ留守番電話。\n「こちらはこちらは」という女の声。\n出血は大したことないはずなのに、デイビッドの意識は薄紙みたいに破れていく。\n最後に聞こえたのは、ドアベルでもサイレンでもなく、硬い金属が落ちる乾いた音だった。"
+      "deathText": "I rushed the bill and hurried the family outside.\nThe doorbell rang a beat lateand in that beat, my foot slid.\nMy head met frozen pavement.\nPain came second. First came the hiss of phone noise blooming in my ear.\nSomeone shouted to call an ambulance.\nBut the diner phone wouldn't reach 911.\nInstead it connected to an unfamiliar voicemail.\nA woman's voice repeating: this is this is\nThe bleeding shouldn't have been much, but my awareness tore like thin paper.\nThe last sound I heard wasn't a bell or a sirenjust metal hitting the ground."
     },
     {
       "id": "bad_scene03_b",
-      "title": "GAME OVER",
+      "title": "BAD END  Shortcut",
       "illustration": "/assets/bad_scene03.webp",
-      "deathText": "近道は、街の裏側を通る。\n廃工場の壁は落書きで埋まり、窓は目のない顔みたいだ。\nラジオの音が途切れ、代わりにサイレンが車内に入り込む。\n「どこから？」と探す前に、路面が沈んだ。\n舗装の下が空洞だった。\n車体が傾き、デイビッドの視界は斜めの世界に変わる。\n携帯は圏外。公衆電話は壊れている。\n助けを呼ぶべき番号は、街の不具合で別の誰かへ繋がる。\n繋がった先で、女の声が落ち着いて言った。\n「あなたは、そこを選ぶと思いました」"
+      "deathText": "A shortcut shows you the city's underside.\nThe factory walls are covered in graffiti; the windows are faces without eyes.\nThe radio cuts out, replaced by sirens crawling into the car.\nBefore I could locate them, the road sank.\nHollow underneath.\nThe car tipped, and my world became a slanted angle.\nNo signal. The payphone was broken.\nThe number that should have helped routed to someone else.\nOn the other end, a woman said calmly: I thought you'd choose this way."
     },
     {
       "id": "bad_scene04_b",
-      "title": "GAME OVER",
+      "title": "BAD END  Wrong Exit",
       "illustration": "/assets/bad_scene04.webp",
-      "deathText": "同僚の背に紛れてゲートをすり抜けた瞬間、警報は鳴らなかった。\n鳴らない方が怖い。\n廊下の蛍光灯が、一斉に点滅ではなく瞬きをした。\nセキュリティの男が、遅れてこちらを見る。\n「あなた、今日はここに入っちゃいけないんだ」\n次の瞬間、館内放送が誤作動して、ビル全体に火災発生が流れた。\n避難経路の表示が逆向きに切り替わる。\n人の波は一つの出口へ向かい、出口は一つも開かない。\nデイビッドは押され、倒れ、誰かの靴底が胸を踏む。\n最後に聞こえたのは、火災ベルではなく、電話のベルだった。"
+      "deathText": "I slipped through the gate behind a coworker. The alarm didn't sound.\nNo alarm is worse.\nThe hallway lights didn't flickerthey blinked, like an eye.\nThe guard looked over too late.\nYou're not supposed to be here today.\nThen the PA system glitched and broadcast FIRE across the whole building.\nExit signs flipped, pointing the wrong way.\nThe crowd surged to one doorand the door never opened.\nI fell. A shoe pressed into my chest.\nThe last thing I heard wasn't the fire bell. It was a phone ringing."
     },
     {
       "id": "bad_scene05_b",
-      "title": "GAME OVER",
+      "title": "BAD END  Wrong Button",
       "illustration": "/assets/bad_scene05.webp",
-      "deathText": "自販機のボタンは削れていて、C3がG3に見えた。\n落ちてきたのはスナックではなく、古い救急用のホイッスルだった。\nフランクは笑っている。笑いが止まらない。\nデイビッドがホイッスルを吹くと、音は出ない。\n出ない代わりに、オフィスの電話が一斉に鳴った。\n鳴っているのに、誰も取らない。\n腹が痛い。空腹の痛みではない。\n視界の端で、同僚たちが紙みたいに薄くなる。\nデイビッドは倒れながら思う。\nちゃんとした番号に繋がるべきだった、と。"
+      "deathText": "The vending machine labels were worn down. C3 looked like G3.\nWhat fell wasn't a snackit was an old emergency whistle.\nFrank laughed. He couldn't stop.\nI blew the whistle. No sound came out.\nInstead, every phone in the office rang at once.\nIt rang, and nobody answered.\nMy stomach clenchedthis wasn't hunger.\nAt the edge of my vision, coworkers thinned like paper.\nAs I went down, one thought stuck: I should have reached the right number."
     },
     {
       "id": "bad_scene06_b",
-      "title": "GAME OVER",
+      "title": "BAD END  Dead Batteries",
       "illustration": "/assets/bad_scene06.webp",
-      "deathText": "まっすぐ帰るはずの道に、見覚えのない信号が一つ増えていた。\n増えるはずのない信号だ。\n青の時間が短すぎて、後ろの車が苛立つ。\n家に着くと、懐中電灯の電池が切れていて、地下室の黒が濃くなる。\n暗闇の中で、配線の奥が一瞬だけ白く光った。\n火花が走り、焦げた匂いが一気に広がる。\n電話が鳴り、受話器の向こうの女が落ち着いて言う。\n「電池を買っていれば、あなたは見えたはずです」\n見えないまま、焦げ臭さが喉の奥に入ってくる。\n助けは、正しい番号へは繋がらなかった。"
+      "deathText": "A traffic light appeared where it shouldn't exist.\nThe green was too short, and the cars behind me grew angry.\nAt home, my flashlight was dead, and the basement's black got thicker.\nIn that dark, something flashed white behind the wiring.\nA spark ran. The burnt smell surged.\nThe phone rang, and the woman said, calm as ever: if you'd bought batteries, you would have seen it.\nI couldn't see. And the burnt air slid into my throat.\nHelp never reached a number that mattered."
     },
     {
       "id": "bad_scene07_b",
-      "title": "GAME OVER",
+      "title": "BAD END  Just a Minute",
       "illustration": "/assets/bad_scene07.webp",
-      "deathText": "ソファに沈むと、体が家の形に馴染む。\nデイビッドは「今だけ休む」つもりだった。\nだが「今だけ」は、増殖する。\nトミーが台所で何かを引きずる音がする。\n振り向くのが遅れた。\n遅れは、ほんの一拍。\nその一拍の間に、子どもの好奇心がガスという単語に触れる。\nデイビッドが電話を掴み、911を回そうとした瞬間、テレビが先に喋った。\nニュースキャスターが彼の住所を読み上げる。\n「通報は誤接続の可能性が」\n画面の中のキャスターがこちらを見て、口だけ動かした。\n「遅かったね」"
+      "deathText": "The couch takes your weight like it was made for you.\nI meant to rest just for a minute.\nBut just for a minute multiplies.\nSomething scraped in the kitchen.\nI turned too late.\nLate is only a beatuntil a beat becomes a disaster.\nCuriosity touches the word gas.\nI grabbed the phone and tried to dial 911, but the TV spoke first.\nThe anchor read my address out loud.\nCalls may be misrouted\nThen the anchor looked at me and mouthed: too late."
     },
     {
       "id": "bad_scene08_b",
-      "title": "GAME OVER",
+      "title": "BAD END  Smoke Alarm",
       "illustration": "/assets/bad_scene08.webp",
-      "deathText": "ドアを閉めると、焦げ臭さは家の中に残った。\n残る匂いは、たいてい本物だ。\n夜中、煙探知機が鳴った。\n鳴り方が妙に丁寧で、まるで電話のベルみたいだった。\n地下室の配線が黒く焦げ、断熱材が溶けていた。\n火はまだ小さい。だが出口がやけに遠い。\n玄関の鍵が回らない。\n鍵穴に、何かが詰まっている。\n紙が押し込まれたみたいだ。\n紙にはたった三文字。\n「911」\n外で隣人が言った。\n「助けを呼んだんだが、繋がらない」"
+      "deathText": "I shut the door, and the burnt smell stayed inside.\nA smell that lingers is usually real.\nAt midnight, the smoke alarm went off.\nIt rang politelylike a phone bell.\nDownstairs, the wiring was black and the insulation had melted.\nThe fire was still small, but the exit felt far away.\nThe front lock wouldn't turn.\nSomething was stuffed in the keyholepaper, jammed deep.\nOn it, three digits: 911.\nOutside, Hudson said: I tried to call for help. It won't connect."
     },
     {
       "id": "bad_scene09_b",
-      "title": "GAME OVER",
+      "title": "BAD END  Cut Line",
       "illustration": "/assets/bad_scene09.webp",
-      "deathText": "電話を切ると、部屋の静けさが増えた。\n増えた静けさは、重さを持つ。\n地下室の奥のドアが、勝手に「カチ」と鳴った。\n受話器はない。\nそれでも女の声ははっきり言った。\n「切りましたね。だから、あなたは一人で聞くことになります」\n何を？ と聞く前に、ヒューズボックスの中で小さな閃光が咲いた。\n閃光は花火のように美しく、そして酸素を奪った。"
+      "deathText": "When I hung up, the room's silence got heavier.\nHeavier silence has weight.\nIn the basement, the back door clicked on its own.\nNo receiver in my handyet the woman's voice was clear: you cut the line. So you'll hear it alone.\nBefore I could ask what, a small flash bloomed inside the fuse box.\nBeautiful like fireworks. And then it stole the air."
     },
     {
       "id": "bad_scene10_b",
-      "title": "GAME OVER",
+      "title": "BAD END  The Phone Room",
       "illustration": "/assets/bad_scene10.webp",
-      "deathText": "奥のドアは、思ったより軽く開いた。\n軽すぎる扉は、現実より夢に近い。\n中は狭い部屋で、壁一面に古い電話機が並んでいた。\nどれもコードが切れている。\nなのに、全部が同時に鳴った。\n床には、新聞の切り抜きが散らばっている。\n最後の見出しだけが、インクが濡れていた。\n「ヒューズを落とさなかった男、家ごと誤接続される」\n背後で、配線が燃える音がした。\n燃えているのは家ではない。\n燃えているのは、戻れる可能性だった。"
+      "deathText": "The back door opened too easily.\nA door that light is closer to a dream than to reality.\nInside was a narrow room lined with old telephones.\nEvery cord was cut.\nAnd still, they all rang at once.\nNewspaper clippings littered the floorheadlines blurred by damp ink.\nOne line seemed to float up: the man who didn't cut the power was misrouted with his whole house.\nBehind me, the wiring made a sound like burning.\nIt wasn't the house that was burning.\nIt was the possibility of going back."
     }
   ],
   "clear": {
     "id": "clear",
     "title": "GAME CLEAR",
     "illustration": "/assets/clear.webp",
-    "clearText": "ヒューズを落とすと、家の音が一度だけ止まった。\n冷蔵庫の唸りも、時計の秒針も、遠いサイレンも。\n暗闇の中で、デイビッドは家族の寝息を数える。\n数えられるものは、まだ守れる。\n階段を上がると、電話が鳴っていた。\nだが受話器を取る前に、留守番電話が勝手に再生される。\n女の声は、今まででいちばん人間らしかった。\n「こちら、911。誤接続は解消されました。\n　あなたは今日は、正しい順番で選びましたね」\n明日が来るという当たり前が、いちばん不気味で、いちばん美しい。\n電話は二度と鳴らなかった。"
+    "clearText": "When I cut the fuse, the house went silent for exactly one beat.\nThe refrigerator's groan, the clock's ticking, the distant sirenseverything.\nIn that darkness I counted my family's breathing.\nIf you can count it, you can still protect it.\nUpstairs, the phone was ringing.\nBut before I could pick up, the answering machine played by itself.\nHer voice sounded more human than ever.\nThis is 911. The misconnection has been resolved.\nYou chose the right order today.\nThe ordinary fact that tomorrow will come felt both the strangest and the most beautiful thing.\nThe phone never rang again."
   }
 }

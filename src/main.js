@@ -107,7 +107,7 @@ function render() {
           renderIllustration(clear.illustration, clear.title),
           renderTextBlock(clear.clearText),
           renderButtons([
-            el("button", { class: "btn secondary", type: "button", onClick: restart, text: "リスタート" })
+            el("button", { class: "btn secondary", type: "button", onClick: restart, text: "Restart" })
           ])
         ])
       ])
@@ -146,7 +146,7 @@ function render() {
           renderTextBlock(scene.storyText),
           renderButtons([
             ...choiceButtons,
-            el("button", { class: "btn secondary", type: "button", onClick: restart, text: "リスタート" })
+            el("button", { class: "btn secondary", type: "button", onClick: restart, text: "Restart" })
           ])
         ])
       ])
@@ -164,7 +164,7 @@ function render() {
           renderIllustration(bad.illustration, bad.title),
           renderTextBlock(bad.deathText),
           renderButtons([
-            el("button", { class: "btn", type: "button", onClick: restart, text: "最初から" })
+            el("button", { class: "btn", type: "button", onClick: restart, text: "Start Over" })
           ])
         ])
       ])
@@ -191,8 +191,8 @@ async function boot() {
       el("main", { class: "container" }, [
         renderHeader("Error"),
         el("div", { class: "card" }, [
-          el("p", { class: "hint", text: "ゲームデータの読み込みに失敗しました。" }),
-          el("button", { class: "btn", type: "button", onClick: () => location.reload(), text: "再読み込み" })
+          el("p", { class: "hint", text: "Failed to load game data." }),
+          el("button", { class: "btn", type: "button", onClick: () => location.reload(), text: "Reload" })
         ])
       ])
     );
@@ -200,3 +200,4 @@ async function boot() {
 }
 
 boot();
+
