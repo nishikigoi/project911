@@ -158,7 +158,7 @@ def main() -> None:
         ),
         "scene3": ("Stay on the main road and drive carefully.", "Take a shortcut through the back streets."),
         "scene4": ("Explain and follow the proper check-in procedure.", "Slip in behind someone and get through the gate."),
-        "scene5": ("Double-check the label and choose carefully.", "Just press a button  anything is fine."),
+        "scene5": ("Double-check the label and choose carefully.", "Just press a button. Anything is fine."),
         "scene6": ("Stop by the supermarket before going home.", "Go straight home and deal with it later."),
         "scene7": ("Help Lily with the project and check on Tommy.", "Tell them you're tired and sit down for a minute."),
         "scene8": ("Go outside with Hudson and check the smell.", "Dismiss it and close the door for the night."),
@@ -200,7 +200,7 @@ def main() -> None:
             "The moment they turned, it felt like they'd been expecting my shift.\n"
             "A blunt impact rang inside my skull. The world warped.\n"
             "The ambulance siren drifted farther and farther away.\n"
-            "But somehow, the only bell that kept ringing was a phone  deep in my ear.\n"
+            "But somehow, the only bell that kept ringing was a phone, deep in my ear.\n"
             "As the stretcher rolled, I heard a voice like the diner waitress: the phone's been weird today.\n"
             "I never managed to answer before the dark took me."
         ),
@@ -281,7 +281,7 @@ def main() -> None:
             "Downstairs, the wiring was black and the insulation had melted.\n"
             "The fire was still small, but the exit felt far away.\n"
             "The front lock wouldn't turn.\n"
-            "Something was stuffed in the keyhole  paper, jammed deep.\n"
+            "Something was stuffed in the keyhole: paper, jammed deep.\n"
             "On it, three digits: 911.\n"
             "Outside, Hudson said: I tried to call for help. It won't connect."
         ),
@@ -289,7 +289,7 @@ def main() -> None:
             "When I hung up, the room's silence got heavier.\n"
             "Heavier silence has weight.\n"
             "In the basement, the back door clicked on its own.\n"
-            "No receiver in my hand  yet the woman's voice was clear: you cut the line. So you'll hear it alone.\n"
+            "No receiver in my hand, yet the woman's voice was clear: you cut the line. So you'll hear it alone.\n"
             "Before I could ask what, a small flash bloomed inside the fuse box.\n"
             "Beautiful like fireworks. And then it stole the air."
         ),
@@ -299,7 +299,7 @@ def main() -> None:
             "Inside was a narrow room lined with old telephones.\n"
             "Every cord was cut.\n"
             "And still, they all rang at once.\n"
-            "Newspaper clippings littered the floor  headlines blurred by damp ink.\n"
+            "Newspaper clippings littered the floor; headlines blurred by damp ink.\n"
             "One line seemed to float up: the man who didn't cut the power was misrouted with his whole house.\n"
             "Behind me, the wiring made a sound like burning.\n"
             "It wasn't the house that was burning.\n"
@@ -318,7 +318,7 @@ def main() -> None:
         data["clear"]["title"] = "GAME CLEAR"
         data["clear"]["clearText"] = (
             "When I cut the fuse, the house went silent for exactly one beat.\n"
-            "The refrigerator's groan, the clock's ticking, the distant sirens  everything.\n"
+            "The refrigerator's groan, the clock's ticking, the distant sirens; everything.\n"
             "In that darkness I counted my family's breathing.\n"
             "If you can count it, you can still protect it.\n"
             "Upstairs, the phone was ringing.\n"
