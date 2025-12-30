@@ -1,8 +1,18 @@
 # Project 911
 
-A father in 1990s Detroit navigates misrouted 911 calls to keep his family safe—choose carefully, because one wrong decision ends everything.
+## About
 
-Choice-based, browser-only text adventure (horror / absurd). No saving (no LocalStorage / cookies / IndexedDB / server-side persistence).
+A browser-based text adventure game set in 1990s Detroit.
+
+You play a father caught in a series of misrouted 911 calls.
+Every choice is a matter of life and death—one wrong decision can end everything.
+
+## Features
+
+- Choice-driven gameplay (horror / absurd)
+- Browser-only (no installation required)
+- No saving system — no LocalStorage, cookies, IndexedDB, or server-side persistence
+- Every run is final
 
 <p align="center">
   <img src="public/assets/title.webp" width="32%" alt="Title" />
