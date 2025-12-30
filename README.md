@@ -1,31 +1,20 @@
-# Project 911 (temp)
+# Project 911
 
 Choice-based text adventure (horror / absurd).
 
 Browser-only, no saving (does not use LocalStorage / cookies / IndexedDB / server-side persistence).
 
-## Requirements (Windows + WSL2)
+<p align="center">
+	<img src="public/assets/title.webp" width="32%" alt="Title" />
+	<img src="public/assets/scene01.webp" width="32%" alt="Gameplay" />
+	<img src="public/assets/clear.webp" width="32%" alt="Clear" />
+</p>
 
-- Windows: VS Code
-- WSL2 (Ubuntu, etc.)
-- Node.js / npm (this repo uses Vite + Vanilla JS)
+## Requirements
 
-### Installing Node (recommended: nvm)
+- Node.js + npm
 
-In WSL:
-
-```bash
-# nvm
-curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-
-# load nvm (opening a new shell is the safest option)
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
-# Node (LTS)
-nvm install --lts
-nvm use --lts
-```
+This project is a Vite + Vanilla JS SPA.
 
 ## Development
 
@@ -55,10 +44,6 @@ Build output is `dist/`.
 - 10 consecutive correct choices leads to GAME CLEAR
 - No saving: reloading restarts from Scene 1
 
-## Deploy to Cloudflare Pages
+## License
 
-You can deploy via GitHub integration on Cloudflare Pages.
-
-- Framework preset: `Vite`
-- Build command: `npm run build`
-- Build output directory: `dist`
+MIT (see `LICENSE`).
